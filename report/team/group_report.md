@@ -62,7 +62,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| **Candidate 1 (Tuấn Anh):** Sàng lọc sơ bộ hồ sơ ứng viên (CV Screening) | **5** | **5** | **5** | **5** | **5** | **5** | **4** | **34** |
+| **Candidate 1 (Tuấn Anh):** Sàng lọc sơ bộ hồ sơ ứng viên (CV Screening) | **4** | **4** | **4** | **4** | **4** | **4** | **4** | **28** |
 | **Candidate 11 (Khánh):** Phân bổ tiền thanh toán đi chơi nhóm | **4** | **4** | **4** | **3** | **4** | **3** | **5** | **27** |
 | **Candidate 7 (Trang):** Tổng hợp nội dung & task sau cuộc họp | **4** | **4** | **4** | **2** | **4** | **3** | **5** | **26** |
 | **Candidate 4 (Vũ):** Tổng hợp báo cáo quảng cáo hằng tuần | **4** | **3** | **3** | **3** | **4** | **3** | **3** | **23** |
@@ -71,7 +71,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 Candidate 1 — Sàng lọc sơ bộ hồ sơ ứng viên khi nhận số lượng lớn (CV Screening).
 
 **Vì sao chọn:**
-1. **Điểm cao nhất (34/35):** Vượt trội trên hầu hết các tiêu chí quan trọng về độ rõ của quy trình và tính đo lường của số liệu.
+1. **Điểm dẫn đầu shortlist (28/35):** Thể hiện sự cân bằng tốt giữa tính thực tế của vấn đề và độ rõ ràng của quy trình đối soát dữ liệu.
 2. **Quy trình và Bottleneck rất rõ ràng:** Bóc tách thành 6 bước cụ thể, xác định chính xác nút thắt ở Bước 2 (Đọc lướt đối chiếu tiêu chí cứng mất 60 phút/100 CV gây mỏi mắt, quá tải nhận thức).
 3. **Success Metric hoàn chỉnh:** Đo lường được cả chiều rộng (thời gian giảm từ 125 phút xuống dưới 35 phút) lẫn chiều sâu chất lượng (tỷ lệ bỏ sót ứng viên đạt chuẩn giảm từ ~8% xuống dưới 2%).
 4. **Đất diễn công nghệ rất tốt:** Thể hiện rõ sự khác biệt giữa Rule (lọc từ khóa cứng bị gian lận/bỏ sót định dạng) vs Workflow AI (trích xuất thông tin có ngữ cảnh kèm bằng chứng trích dẫn để con người duyệt).
