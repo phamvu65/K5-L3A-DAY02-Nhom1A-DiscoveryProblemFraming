@@ -6,7 +6,7 @@
 ## 1. Thông tin nhóm
 
 - Tên nhóm: Nhom1A
-- Thành viên: xem `TEAM.md` (Phạm Tuấn Anh, Phạm Nguyên Vũ, Nguyễn Quỳnh Trang)
+- Thành viên: xem `TEAM.md` (Phạm Tuấn Anh, Phạm Nguyên Vũ, Nguyễn Quỳnh Trang, Nguyễn Khắc Khánh)
 - Candidate problem được chọn (1 câu): Khi nhận được hàng trăm CV ứng tuyển cho một vị trí, nhân viên tuyển dụng muốn xác định nhanh nhóm ứng viên phù hợp với tiêu chí cốt lõi, để không mất quá nhiều thời gian đọc lướt thủ công mà vẫn không bỏ sót ứng viên tiềm năng.
 - Quyết định cuối: Go / Not Yet / No-Go
 
@@ -27,6 +27,9 @@
 | 7 | Trang | Khi kết thúc buổi họp nhóm, muốn bản tổng hợp nội dung và task gửi cho team để mọi người nắm rõ công việc | Team, Thư ký họp | Chọn lọc và tổng hợp nội dung thảo luận thành task và deadline (13'/buổi) | Thời gian toàn bộ chỉ mất 20 phút/buổi, nếu người ghi chép điền trực tiếp vào template Notion/Google Docs có sẵn cột Task - Deadline ngay lúc họp thì có cần dùng AI không? *(Tuấn Anh hỏi)* |
 | 8 | Trang | Khi làm báo cáo tiến độ tuần, muốn tổng hợp thông tin từ file báo cáo cá nhân của các thành viên thành báo cáo chung | Team lead | Đọc nhiều báo cáo phân tán và tổng hợp xử lý thông tin trùng lặp (60'/tuần) | Các thành viên có điền đúng mẫu báo cáo không, và nếu dùng một Google Sheet chung cho cả nhóm cập nhật trực tiếp thì có giảm được bước tổng hợp này không? *(Vũ hỏi)* |
 | 9 | Trang | Khi nhận nhiều góp ý cho cùng một báo cáo, muốn gom các góp ý theo phần và phát hiện mâu thuẫn để lập danh sách sửa | Người sửa báo cáo | Hiểu và gom góp ý thành danh sách chỉnh sửa thống nhất (90') | Trong 90 phút đó, phần lớn thời gian là ngồi viết lại nội dung hay là phân loại góp ý; làm sao AI biết góp ý nào đúng chuyên môn để giữ lại? *(Tuấn Anh hỏi)* |
+| 10 | Khánh | Khi sát hạn 23h59 nộp bài lab, muốn đối chiếu toàn bộ mục bài làm với Rubric để không bị trừ điểm lỗi hình thức | Học viên (Khánh, team) | Đối chiếu chi tiết từng tiêu chí Rubric với nội dung bài viết (25'/lần) | Tiêu chí Rubric có nhiều chỗ mang tính định tính (chất lượng lập luận), nếu AI chấm điểm thì làm sao tin tưởng được kết quả của AI? *(Tuấn Anh hỏi)* |
+| 11 | Khánh | Sau buổi đi chơi nhóm, muốn phân bổ số tiền thanh toán đúng theo món từng người đã dùng để thu tiền đủ và đúng | Người thanh toán trước (chủ chi) | Tính toán phân bổ tiền món riêng, món chung và thuế/phí (15') | Hiện đã có nhiều app chia tiền (Splitwise, MoMo), tại sao người dùng phải cần một giải pháp AI thay vì dùng bảng tính Excel/app có sẵn? *(Vũ hỏi)* |
+| 12 | Khánh | Khi học bài lúc 20h tối, muốn duy trì tập trung liên tục mà không bị ngắt quãng bởi thông báo điện thoại để xong bài sớm | Sinh viên tự học | Bị cuốn vào lướt mạng vô thức (45'/lần ngắt quãng) | Đây là vấn đề thuộc về kỷ luật hành vi con người, liệu AI có ngăn được người dùng cầm điện thoại lên không nếu họ không tự kiểm soát? *(Trang hỏi)* |
 
 ### 2.2. Cluster
 
@@ -34,7 +37,8 @@
 |---|---|---|
 | A (Xử lý hồ sơ & Tuyển dụng nhân sự) | Candidate #1 (Tuấn Anh), Candidate #2 (Tuấn Anh), Candidate #3 (Tuấn Anh) | Xử lý các tài liệu phi cấu trúc (CV, JD, ghi chú), đối chiếu tiêu chí và rút ngắn độ trễ trong quy trình tuyển chọn con người. |
 | B (Tổng hợp thông tin & Lập báo cáo) | Candidate #4 (Vũ), Candidate #8 (Trang) | Thu thập các nguồn dữ liệu phân tán (số liệu ads, báo cáo cá nhân) để biên soạn thành một báo cáo tổng thể định kỳ. |
-| C (Điều phối & Đối soát tác vụ vận hành) | Candidate #5 (Vũ), Candidate #6 (Vũ), Candidate #7 (Trang), Candidate #9 (Trang) | Rà soát thông tin chi tiết (lệch tiền, thay đổi đơn hàng, task họp, góp ý) nhằm giảm sai sót và tránh bỏ sót công việc. |
+| C (Điều phối & Đối soát tác vụ vận hành) | Candidate #5 (Vũ), Candidate #6 (Vũ), Candidate #7 (Trang), Candidate #9 (Trang), Candidate #11 (Khánh) | Rà soát thông tin chi tiết (lệch tiền, thay đổi đơn hàng, task họp, góp ý, chia tiền ăn uống) nhằm giảm sai sót và tránh thất thoát. |
+| D (Rà soát & Đánh giá tài liệu học tập) | Candidate #10 (Khánh) | Đối chiếu văn bản bài làm với khung tiêu chí chuẩn (Rubric/Checklist) để phát hiện thiếu sót trước hạn chót. |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
@@ -59,8 +63,9 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | **Candidate 1 (Tuấn Anh):** Sàng lọc sơ bộ hồ sơ ứng viên (CV Screening) | **5** | **5** | **5** | **5** | **5** | **5** | **4** | **34** |
-| **Candidate 4 (Vũ):** Tổng hợp báo cáo quảng cáo hằng tuần | **4** | **3** | **3** | **3** | **4** | **3** | **3** | **23** |
+| **Candidate 11 (Khánh):** Phân bổ tiền thanh toán đi chơi nhóm | **4** | **4** | **4** | **3** | **4** | **3** | **5** | **27** |
 | **Candidate 7 (Trang):** Tổng hợp nội dung & task sau cuộc họp | **4** | **4** | **4** | **2** | **4** | **3** | **5** | **26** |
+| **Candidate 4 (Vũ):** Tổng hợp báo cáo quảng cáo hằng tuần | **4** | **3** | **3** | **3** | **4** | **3** | **3** | **23** |
 
 **Candidate được chọn:**
 Candidate 1 — Sàng lọc sơ bộ hồ sơ ứng viên khi nhận số lượng lớn (CV Screening).
@@ -73,8 +78,9 @@ Candidate 1 — Sàng lọc sơ bộ hồ sơ ứng viên khi nhận số lượ
 5. **Khả năng kiểm chứng CP4 thực tế cao:** Nhóm rất dễ tiếp cận các bạn sinh viên đã từng nộp CV xin việc/thực tập hoặc thành viên ban tuyển dụng của các câu lạc bộ để phỏng vấn theo phương pháp The Mom Test.
 
 **Vì sao loại các candidate còn lại:**
+- **Loại Candidate 11 của Khánh (Chia tiền đi chơi - 27 điểm):** Bài toán tuy có nỗi đau thật nhưng bản chất phép tính toán phân bổ tiền và chia hóa đơn phần lớn giải quyết được bằng Rule / công thức Excel hoặc các ứng dụng thanh toán hiện có (MoMo, Splitwise). Việc ứng dụng AI ở đây chỉ dừng ở khâu OCR đọc hóa đơn giấy, giá trị giải quyết bằng AI chưa đủ sâu so với bài toán lọc CV.
+- **Loại Candidate 7 của Trang (Tổng hợp sau họp - 26 điểm):** Impact quá nhỏ (toàn bộ quy trình chỉ mất 20 phút mỗi buổi họp). Nỗi đau này có thể giải quyết nhanh bằng việc chuẩn hóa biên bản họp dạng bảng trên Notion/Google Docs để người ghi chép điền trực tiếp trong lúc họp (No AI), không đủ quy mô và độ phức tạp để cả nhóm 4 người đào sâu nghiên cứu.
 - **Loại Candidate 4 của Vũ (Báo cáo Ads - 23 điểm):** Các bước quy trình và số phút đo lường hiện tại chỉ là ước lượng (chưa đo baseline thực tế). Ngoài ra, bài toán này chủ yếu xử lý số liệu có cấu trúc từ tài khoản ads và doanh số, hoàn toàn có thể giải quyết triệt để bằng template bảng tính Excel hoặc công cụ Dashboard Looker Studio/PowerBI (No AI/Rule) mà không thực sự cần đến AI.
-- **Loại Candidate 7 của Trang (Tổng hợp sau họp - 26 điểm):** Impact quá nhỏ (toàn bộ quy trình chỉ mất 20 phút mỗi buổi họp). Nỗi đau này có thể giải quyết nhanh bằng việc chuẩn hóa biên bản họp dạng bảng trên Notion/Google Docs để người ghi chép điền trực tiếp trong lúc họp (No AI), không đủ quy mô và độ phức tạp để cả nhóm 3–4 người đào sâu nghiên cứu xuyên suốt một bài lab lớn.
 
 **Xử lý bất đồng (nếu có):**
 Nhóm đạt được sự đồng thuận cao (100% thành viên thống nhất chọn Candidate 1). Bạn Vũ và bạn Trang đều đồng ý rằng bài toán Sàng lọc CV có dữ liệu đầu vào và các tiêu chí đo lường rõ ràng nhất, giúp nhóm thuận lợi hơn khi triển khai các bài tập kiểm chứng phỏng vấn (CP4) và thiết kế quy trình tương lai (CP5–CP6).

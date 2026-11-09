@@ -15,7 +15,7 @@
 | 1 | Phạm Tuấn Anh | 2A202603503 | Đề xuất bài toán chính, Phản biện | phamtuananhhatay |
 | 2 | Phạm Nguyên Vũ | 2A202603436 | Nghiên cứu giải pháp, Kiểm chứng | phamvu65 |
 | 3 | Nguyễn Quỳnh Trang | 2A202603477 | Thư ký ghi chép, Vẽ quy trình | Trang-1234567 |
-| 4 | | | | |
+| 4 | Nguyễn Khắc Khánh | 2A202603472 | Phân tích rủi ro, Kiểm chứng | khackhanh1201 |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
