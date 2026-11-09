@@ -127,7 +127,7 @@ Mở hội thoại → dò các thay đổi → xác nhận thông tin cuối �
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | Tôi trình bày ba vấn đề: tổng hợp báo cáo quảng cáo hằng tuần, đối soát tiền cuối ca ở quán ăn và xác nhận thông tin đơn hàng qua chat. | Ba vấn đề được ghi ở dòng #4–#6 của bảng pitch. Báo cáo quảng cáo vào shortlist và đạt 23/35 điểm. |
+| Pitch Problem Card | Tôi trình bày ba vấn đề: tổng hợp báo cáo quảng cáo hằng tuần, đối soát tiền cuối ca ở quán ăn và xác nhận thông tin đơn hàng qua chat. | Ba vấn đề được ghi ở dòng #4–#6 của bảng pitch. Báo cáo quảng cáo vào shortlist và đạt 27/35 điểm sau khi chấm lại. |
 | Phản biện bài của bạn khác | Tôi hỏi Tuấn Anh liệu ghi chú phỏng vấn ngắn và cảm tính có đủ để AI đối chiếu chính xác với JD. Tôi hỏi Trang liệu dùng một Google Sheet chung có giảm khâu tổng hợp báo cáo tuần. Tôi hỏi Khánh liệu bảng tính hoặc app chia tiền có đủ để xử lý vấn đề. | Các câu hỏi được ghi ở dòng #2, #8 và #11 của bảng pitch. |
 | Nhận phản biện | Tuấn Anh hỏi mẫu Excel có công thức hoặc kết nối dữ liệu vào Looker Studio có thể giảm bao nhiêu thời gian và có cần dùng AI hay không. | Trong Card #1, tôi ghi mẫu báo cáo tuần là phương án không dùng AI. Tôi làm rõ 60–120 phút là ước lượng cho toàn bộ phần chuẩn bị, còn bước tổng hợp chưa được đo riêng. |
 | Gom cluster / cây OST | Tôi được phân công hỗ trợ CP3 cùng Trang và Khánh. | Báo cáo quảng cáo vào cụm tổng hợp thông tin và lập báo cáo. Đối soát cuối ca và xác nhận đơn hàng vào cụm điều phối và đối soát tác vụ. |
