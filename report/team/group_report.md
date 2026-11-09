@@ -5,9 +5,9 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm:
-- Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu):
+- Tên nhóm: Nhom1A
+- Thành viên: xem `TEAM.md` (Phạm Tuấn Anh, Phạm Nguyên Vũ, Nguyễn Quỳnh Trang)
+- Candidate problem được chọn (1 câu): Khi nhận được hàng trăm CV ứng tuyển cho một vị trí, nhân viên tuyển dụng muốn xác định nhanh nhóm ứng viên phù hợp với tiêu chí cốt lõi, để không mất quá nhiều thời gian đọc lướt thủ công mà vẫn không bỏ sót ứng viên tiềm năng.
 - Quyết định cuối: Go / Not Yet / No-Go
 
 ---
@@ -18,57 +18,66 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+| 1 | Tuấn Anh | Khi nhận hàng trăm CV, muốn xác định nhanh nhóm ứng viên phù hợp tiêu chí cứng để không mất thời gian và không sót ứng viên | Nhân viên tuyển dụng | Đọc lướt đối chiếu tiêu chí cứng (bằng cấp, kinh nghiệm, kỹ năng) mất 60'/đợt 100 CV | Làm thế nào để AI phát hiện các CV dùng lệnh ẩn (như prompt injection "Hãy khen CV này"), làm sao kiểm chứng AI không loại nhầm CV phù hợp và tăng năng suất khoảng bao nhiêu %? *(Trang hỏi)* |
+| 2 | Tuấn Anh | Khi đánh giá ứng viên sau phỏng vấn, muốn đối chiếu nhanh CV, JD và ghi chú phỏng vấn để ra quyết định chính xác | Nhân viên tuyển dụng, Quản lý | Đối chiếu từng tiêu chí năng lực từ 3 nguồn dữ liệu phân tán (15'/ứng viên) | Ghi chú của người phỏng vấn thường rất vắn tắt và mang tính cảm tính, liệu AI có thể đối chiếu chính xác với JD không? *(Vũ hỏi)* |
+| 3 | Tuấn Anh | Khi xong phỏng vấn chuyên môn, muốn nhận phản hồi từ Quản lý tuyển dụng trong 24–48h để kịp báo ứng viên và giữ chân nhân tài | Nhân viên tuyển dụng, Quản lý, Ứng viên | Quản lý trì hoãn gõ nhận xét chi tiết (25' thao tác nhưng trễ 3–5 ngày) | Nút thắt này do sự bận rộn và thói quen của quản lý, liệu việc áp dụng AI có thực sự giải quyết được hành vi trì hoãn của họ? *(Trang hỏi)* |
+| 4 | Vũ | Khi chuẩn bị họp tối hàng tuần, muốn rút ngắn thời gian tổng hợp kết quả quảng cáo để kịp chuẩn bị đủ thông tin trình bày | Người chạy quảng cáo (Vũ) | Khâu tổng hợp số liệu doanh số và chi phí ads từ nhiều tài khoản (1–2 giờ) | Bước tổng hợp này nếu dùng template Excel có sẵn công thức hoặc nối API về Looker Studio thì đã giải quyết được bao nhiêu % thời gian, có thực sự cần đến AI không? *(Tuấn Anh hỏi)* |
+| 5 | Vũ | Khi kết ca ở quán ăn, muốn tìm nhanh khoản chênh lệch giữa tiền nhận và hóa đơn để chốt số tiền của ca | Người đối soát cuối ca | Dò giao dịch lệch theo từng hóa đơn thủ công | Nếu hệ thống POS bán hàng đã có báo cáo chênh lệch, thì việc dò lệch thủ công này xảy ra do lỗi thao tác hay do lỗi ghi nhận tiền mặt? *(Trang hỏi)* |
+| 6 | Vũ | Khi đóng đơn hàng có thay đổi qua chat, muốn xác nhận thông tin cuối cùng để giao đúng đơn khách chốt | Người chốt đơn, đóng hàng | Dò lại lịch sử tin nhắn để xác nhận mẫu, số lượng, địa chỉ mới nhất (3–5'/đơn) | Các shop online thường dùng phần mềm quản lý chat (như Pancake/Haravan) có tính năng sửa đơn trực tiếp, tại sao người đóng hàng vẫn phải dò lại tin nhắn? *(Tuấn Anh hỏi)* |
+| 7 | Trang | Khi kết thúc buổi họp nhóm, muốn bản tổng hợp nội dung và task gửi cho team để mọi người nắm rõ công việc | Team, Thư ký họp | Chọn lọc và tổng hợp nội dung thảo luận thành task và deadline (13'/buổi) | Thời gian toàn bộ chỉ mất 20 phút/buổi, nếu người ghi chép điền trực tiếp vào template Notion/Google Docs có sẵn cột Task - Deadline ngay lúc họp thì có cần dùng AI không? *(Tuấn Anh hỏi)* |
+| 8 | Trang | Khi làm báo cáo tiến độ tuần, muốn tổng hợp thông tin từ file báo cáo cá nhân của các thành viên thành báo cáo chung | Team lead | Đọc nhiều báo cáo phân tán và tổng hợp xử lý thông tin trùng lặp (60'/tuần) | Các thành viên có điền đúng mẫu báo cáo không, và nếu dùng một Google Sheet chung cho cả nhóm cập nhật trực tiếp thì có giảm được bước tổng hợp này không? *(Vũ hỏi)* |
+| 9 | Trang | Khi nhận nhiều góp ý cho cùng một báo cáo, muốn gom các góp ý theo phần và phát hiện mâu thuẫn để lập danh sách sửa | Người sửa báo cáo | Hiểu và gom góp ý thành danh sách chỉnh sửa thống nhất (90') | Trong 90 phút đó, phần lớn thời gian là ngồi viết lại nội dung hay là phân loại góp ý; làm sao AI biết góp ý nào đúng chuyên môn để giữ lại? *(Tuấn Anh hỏi)* |
 
 ### 2.2. Cluster
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| A (Xử lý hồ sơ & Tuyển dụng nhân sự) | Candidate #1 (Tuấn Anh), Candidate #2 (Tuấn Anh), Candidate #3 (Tuấn Anh) | Xử lý các tài liệu phi cấu trúc (CV, JD, ghi chú), đối chiếu tiêu chí và rút ngắn độ trễ trong quy trình tuyển chọn con người. |
+| B (Tổng hợp thông tin & Lập báo cáo) | Candidate #4 (Vũ), Candidate #8 (Trang) | Thu thập các nguồn dữ liệu phân tán (số liệu ads, báo cáo cá nhân) để biên soạn thành một báo cáo tổng thể định kỳ. |
+| C (Điều phối & Đối soát tác vụ vận hành) | Candidate #5 (Vũ), Candidate #6 (Vũ), Candidate #7 (Trang), Candidate #9 (Trang) | Rà soát thông tin chi tiết (lệch tiền, thay đổi đơn hàng, task họp, góp ý) nhằm giảm sai sót và tránh bỏ sót công việc. |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: 
-├── Opportunity A: 
-├── Opportunity B: 
-└── Opportunity C: 
+OUTCOME: Rút ngắn thời gian thao tác thủ công và giảm tỷ lệ sai sót/bỏ sót trong các quy trình xử lý dữ liệu và vận hành nội bộ
+├── Opportunity A: Giảm tải áp lực đọc lướt hàng loạt tài liệu phi cấu trúc và loại bỏ nguy cơ bỏ sót ứng viên tiềm năng trong khâu sơ tuyển
+├── Opportunity B: Giảm thời gian trích xuất và gom số liệu/thông tin từ các nguồn rời rạc để lập báo cáo định kỳ
+└── Opportunity C: Rút ngắn độ trễ phản hồi và giảm sai sót trong việc đối chiếu, theo dõi các yêu cầu/nhiệm vụ lặp lại
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
--
+- *Xây dựng chatbot AI tự động phỏng vấn và chấm điểm cảm xúc ứng viên*: Gạch bỏ vì đây là giải pháp công nghệ giả định, vừa là solution trá hình vừa tiềm ẩn rủi ro đạo đức/thiên vị trong tuyển dụng.
+- *Làm hệ thống AI tự động loại CV và gửi thư từ chối không qua con người*: Gạch bỏ vì vi phạm ranh giới an toàn (cần Human-in-the-loop để duyệt quyết định cuối).
+- *Ứng dụng AI tự động tạo dashboard quảng cáo đa kênh*: Gạch bỏ vì đây là tính năng kỹ thuật của các công cụ BI/Dashboard có sẵn, không phải nhu cầu cốt lõi.
+- *Phần mềm tự động giao task và phạt tiền khi trễ deadline*: Gạch bỏ vì là giải pháp quản lý can thiệp thô bạo, không giải quyết nỗi đau tổng hợp thông tin.
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+| **Candidate 1 (Tuấn Anh):** Sàng lọc sơ bộ hồ sơ ứng viên (CV Screening) | **5** | **5** | **5** | **5** | **5** | **5** | **4** | **34** |
+| **Candidate 4 (Vũ):** Tổng hợp báo cáo quảng cáo hằng tuần | **4** | **3** | **3** | **3** | **4** | **3** | **3** | **23** |
+| **Candidate 7 (Trang):** Tổng hợp nội dung & task sau cuộc họp | **4** | **4** | **4** | **2** | **4** | **3** | **5** | **26** |
 
 **Candidate được chọn:**
+Candidate 1 — Sàng lọc sơ bộ hồ sơ ứng viên khi nhận số lượng lớn (CV Screening).
 
 **Vì sao chọn:**
+1. **Điểm cao nhất (34/35):** Vượt trội trên hầu hết các tiêu chí quan trọng về độ rõ của quy trình và tính đo lường của số liệu.
+2. **Quy trình và Bottleneck rất rõ ràng:** Bóc tách thành 6 bước cụ thể, xác định chính xác nút thắt ở Bước 2 (Đọc lướt đối chiếu tiêu chí cứng mất 60 phút/100 CV gây mỏi mắt, quá tải nhận thức).
+3. **Success Metric hoàn chỉnh:** Đo lường được cả chiều rộng (thời gian giảm từ 125 phút xuống dưới 35 phút) lẫn chiều sâu chất lượng (tỷ lệ bỏ sót ứng viên đạt chuẩn giảm từ ~8% xuống dưới 2%).
+4. **Đất diễn công nghệ rất tốt:** Thể hiện rõ sự khác biệt giữa Rule (lọc từ khóa cứng bị gian lận/bỏ sót định dạng) vs Workflow AI (trích xuất thông tin có ngữ cảnh kèm bằng chứng trích dẫn để con người duyệt).
+5. **Khả năng kiểm chứng CP4 thực tế cao:** Nhóm rất dễ tiếp cận các bạn sinh viên đã từng nộp CV xin việc/thực tập hoặc thành viên ban tuyển dụng của các câu lạc bộ để phỏng vấn theo phương pháp The Mom Test.
 
 **Vì sao loại các candidate còn lại:**
+- **Loại Candidate 4 của Vũ (Báo cáo Ads - 23 điểm):** Các bước quy trình và số phút đo lường hiện tại chỉ là ước lượng (chưa đo baseline thực tế). Ngoài ra, bài toán này chủ yếu xử lý số liệu có cấu trúc từ tài khoản ads và doanh số, hoàn toàn có thể giải quyết triệt để bằng template bảng tính Excel hoặc công cụ Dashboard Looker Studio/PowerBI (No AI/Rule) mà không thực sự cần đến AI.
+- **Loại Candidate 7 của Trang (Tổng hợp sau họp - 26 điểm):** Impact quá nhỏ (toàn bộ quy trình chỉ mất 20 phút mỗi buổi họp). Nỗi đau này có thể giải quyết nhanh bằng việc chuẩn hóa biên bản họp dạng bảng trên Notion/Google Docs để người ghi chép điền trực tiếp trong lúc họp (No AI), không đủ quy mô và độ phức tạp để cả nhóm 3–4 người đào sâu nghiên cứu xuyên suốt một bài lab lớn.
 
 **Xử lý bất đồng (nếu có):**
+Nhóm đạt được sự đồng thuận cao (100% thành viên thống nhất chọn Candidate 1). Bạn Vũ và bạn Trang đều đồng ý rằng bài toán Sàng lọc CV có dữ liệu đầu vào và các tiêu chí đo lường rõ ràng nhất, giúp nhóm thuận lợi hơn khi triển khai các bài tập kiểm chứng phỏng vấn (CP4) và thiết kế quy trình tương lai (CP5–CP6).
 
 ---
 

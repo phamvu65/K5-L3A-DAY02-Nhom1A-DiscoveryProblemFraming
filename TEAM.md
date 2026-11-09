@@ -5,16 +5,16 @@
 ## Thông tin nhóm
 
 - Tên nhóm: Nhom1A
-- Candidate problem nhóm chọn (1 câu):
+- Candidate problem nhóm chọn (1 câu): Khi nhận được hàng trăm CV ứng tuyển cho một vị trí, nhân viên tuyển dụng muốn xác định nhanh nhóm ứng viên phù hợp với tiêu chí cốt lõi, để không mất quá nhiều thời gian đọc lướt thủ công mà vẫn không bỏ sót ứng viên tiềm năng.
 - Quyết định cuối (Go / Not Yet / No-Go):
 
 ## Thành viên
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | Phạm Tuấn Anh | 2A202603503 | | phamtuananhhatay |
-| 2 | | | | |
-| 3 | | | | |
+| 1 | Phạm Tuấn Anh | 2A202603503 | Đề xuất bài toán chính, Phản biện | phamtuananhhatay |
+| 2 | Phạm Nguyên Vũ | 2A202603436 | Nghiên cứu giải pháp, Kiểm chứng | phamvu65 |
+| 3 | Nguyễn Quỳnh Trang | 2A202603477 | Thư ký ghi chép, Vẽ quy trình | Trang-1234567 |
 | 4 | | | | |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.

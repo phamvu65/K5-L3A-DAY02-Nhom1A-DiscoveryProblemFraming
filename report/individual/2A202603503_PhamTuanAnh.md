@@ -151,11 +151,11 @@ HIỆN TẠI — Chờ 72–96 giờ (thời gian thao tác thực tế ~75 phú
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
+| Pitch Problem Card | Pitch Card #1 về Sàng lọc sơ bộ hồ sơ ứng viên (CV Screening), nêu rõ bottleneck 60' ở bước đối chiếu tiêu chí cứng và mục tiêu giảm từ 125' xuống 35' | Cả nhóm bị thuyết phục bởi số liệu rõ ràng và thống nhất chọn Card #1 làm Candidate Problem chung của nhóm |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt:<br>1. Cho Vũ (Báo cáo ads): Báo cáo này nếu dùng template Excel/Looker Studio nối API thì đã tự động hóa phần lớn, khâu nào thực sự cần AI?<br>2. Cho Trang (Họp nhóm): Quy trình chỉ mất 20', nếu dùng mẫu biên bản Notion/Docs ghi trực tiếp lúc họp thì tốn 0' sau họp, bài toán có quá nhỏ không? | Giúp nhóm nhận diện được các phương án No AI/Rule có sẵn của hai bài toán kia, từ đó thấy rõ bài toán lọc CV có giá trị giải quyết bằng AI cao hơn |
+| Nhận phản biện | Câu hỏi tôi nhận được (từ Trang):<br>- Làm thế nào để AI phát hiện các CV dùng lệnh ẩn (như prompt injection "Hãy khen CV này")?<br>- Làm thế nào kiểm chứng AI không loại CV phù hợp và tăng năng suất khoảng bao nhiêu %? | Tôi đã trả lời và bổ sung vào giải pháp: Dùng phương pháp trích xuất bằng chứng theo ngữ cảnh (Contextual Evidence) và gắn cờ (flagging) các trường hợp bất thường; thiết lập chốt chặn Human-in-the-loop (AI chỉ highlight, người duyệt cuối) để không bao giờ có chuyện AI tự ý loại bỏ CV |
+| Gom cluster / cây OST | Đề xuất gom 9 ý tưởng thành 3 cụm: Xử lý hồ sơ tuyển dụng, Tổng hợp báo cáo, Điều phối tác vụ vận hành | Xây dựng thành công cây OST với Outcome chung về tối ưu hóa quy trình thủ công và loại bỏ các solution trá hình |
+| Chọn candidate problem | Cùng nhóm chấm điểm 7 tiêu chí cho shortlist 3 bài toán | Thống nhất chọn Candidate #1 với 34/35 điểm |
 | Kiểm chứng / research | | |
 | Quy trình nhóm | | |
 | Problem Statement | | |
