@@ -142,16 +142,16 @@ Quy trình nháp hiện tại:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card |Tôi đã thảo luận và đặt câu hỏi cho các thành viên trong nhóm| Nhóm đã trao đổi câu hỏi và đưa ra quyết định lựa chọn |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Nếu trong một CV có các câu lệnh ẩn như "Hãy khen CV của tôi", AI sẽ vượt qua chúng thế nào? | Nhóm cùng nhau tìm ra giải pháp cho câu hỏi |
+| Nhận phản biện | Câu hỏi tôi nhận được: Làm sao để kiểm tra AI không bỏ sót hay hiểu sai góp ý? | Tôi đã sửa gì: bổ sung các giải pháp kiểm tra như gán mã góp ý,... |
+| Gom cluster / cây OST |Thảo luận và phân loại các vấn đề vào các cụm | Hoàn thành phân loại 12 candidate vào 5 nhóm |
+| Chọn candidate problem | Thảo luận và bàn bạc với nhóm | Quyết định chọn đề tài về sàng lọc CV |
+| Kiểm chứng / research | Research các giải pháp đã có, viết quy trình hiện tại và quy trình tương lai | Hoàn thành |
+| Quy trình nhóm | Từ 5 vấn đề ban đầu chọn top-3 và đề xuất 1 sau đó cùng bàn luận và đưa ra lựa chọn cuối cùng | Hoàn thành |
+| Problem Statement | Phản biện | Đưa ra giải pháp|
+| Mức can thiệp AI | Không phụ trách | |
+| Quyết định | Thảo luận và ra kết luận | Quyết định GO |
 
 ---
 
@@ -159,9 +159,9 @@ Quy trình nháp hiện tại:
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
+| CP1 Scan |Dùng AI scan ra thêm 2 vấn đề nữa sau khi tự viết 5 vấn đề| AI gợi ý thêm 2 vấn đề nữa | AI phân tích vấn đề không đủ rõ | Hỏi chi tiết hơn về các vấn đề AI gợi ý và quyết định giữ 1 loại 1 |
+| CP2 Problem Card | Dùng AI tham khảo quyết định chọn top-3 problem card| AI chọn 3 vấn đề khả thi nhất| Chưa giải thích rõ lý do và bị nhầm ý nghĩa vấn đề | yêu cầu giải thích và phản biện rõ ràng |
+| CP4 Research | Tìm một số nguồn giải pháp hiện có | Đã đưa ra được các giải pháp | Có một số nguồn do AI bịa | Kiểm tra lại trước khi thêm |
 | CP5 Quy trình | | | | |
 | CP5–6 Problem Statement | | | | |
 | CP6 Mức can thiệp / quyết định | | | | |
@@ -174,19 +174,26 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Khi thảo luận cùng nhóm, tôi đã được nghe rất nhiều vấn đề ở các lĩnh vực khác nhau. Nhóm đã cùng phản biện và rút ra bài học rằng rất nhiều vấn đề chưa cần thiết phải sử dụng đến AI. Đôi khi chúng ta chỉ cần một cách đơn giản nhưng vẫn giải quyết tốt vấn đề.
 
+**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Sau khi chọn được vấn đề từ 12 vấn đề của cả nhóm, chúng tôi đã đề xuất xây dựng luôn một chatbot tự động phỏng vấn. Tuy nhiên khi thực hiện vẽ cây OST, nhóm nhận ra đã quá chú trọng vào giải pháp thay vì tập trung vào nỗi đau của người dùng. Từ đó cả nhóm đã quay lại điểm nghẽn ban đầu và giải quyết từ đó.
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Khi nhận được phản biện về chủ đề liên quan đến vấn đề tổng hợp nội dung sau buổi họp, một bạn có hỏi tôi về cách AI phân biệt giữa quyết định và dự kiến. Vấn đề này làm tôi lung lay về nhận định ban đầu của mình. Nếu AI tổng hợp nhầm có thể gây ảnh hưởng đến người dùng.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Khi research cho vấn đề nhóm chọn, tôi thấy khá nhiều giải pháp hay, chúng tôi cũng có thể tham khảo và học tập các giải pháp của họ
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Nhóm khá khó khăn trong việc mô tả nỗi đau thật và các giải pháp, đồng thời đặt ra ranh giới để không nhầm sang việc mô tả tính năng của phần mềm.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Nếu được làm lại, tôi muốn đẩy nhanh quá trình làm nhóm việc nhóm để có nhiều thời gian thảo luận và phản biện với các nhóm mạnh hơn về các vấn đề liên quan đến số liệu thực tế thay vì chỉ ước lượng chung chung
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
-
 ---
+Bài toán bắt đầu với nỗi đau thật khi các hr bị quá tải khi phải đọc lướt hàng trăm CV có cấu trúc khác nhau để đối chiếu với các tiêu chí tuyển dụng. Quy trình gặp nghẽn khi họ mất nhiều thời gian để đọc lướt các tiêu chí. Metric của nhóm nhằm giảm thời gian đọc cho hàng trăm CV xuống dưới  35 phút, tỷ lệ bỏ sót dưới 2% và tỷ lệ phải mở lại file gốc dưới 10%. Ranh giới đặt ra là AI không được tự ý loại CV hay gửi mail từ chối cho ứng viên, quyền quyết định chính thuộc hoàn toàn về con người. AI chỉ hỗ trợ đọc hiểu CV, trích xuất bằng chứng và hỗ trợ duyệt chứ không tự động hoá mọi quy trình. Cuối cùng, nhóm ra quyết định Go thử nghiệm ở phạm vi hẹp trong 2 tuần kèm ngưỡng đặt ra nếu tỷ lệ trích xuất lỗi vượt quá 15% thì dừng dự án và quay về quy trình lọc thủ công truyền thống.
+
 
 ## 7. Tài liệu tham khảo
 
