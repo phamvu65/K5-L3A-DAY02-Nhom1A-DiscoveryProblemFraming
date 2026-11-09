@@ -6,11 +6,11 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
+- Họ tên: Nguyễn Quỳnh Trang
+- MSSV: 2A202603477
 - Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm:
-- Link repo nhóm:
+- Tên nhóm: Nhom1A
+- Link repo nhóm: https://github.com/phamvu65/K5-L3A-DAY02-Nhom1A-DiscoveryProblemFraming.git
 
 ---
 
@@ -133,7 +133,8 @@ Quy trình nháp hiện tại:
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| | | |
+|Gần 3 tiếng là tổng thời gian sửa báo cáo, chưa phản ánh riêng thời gian xử lý góp ý. | Đồng ý | Đã phân thời gian cụ thể |
+
 
 ---
 
