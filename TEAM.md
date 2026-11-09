@@ -78,3 +78,36 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm**
 
 - Tôi học được cách tách thời gian của bước nghẽn khỏi thời gian của cả quy trình. Với bài toán sàng lọc CV, tôi thấy việc xác định ai kiểm tra hồ sơ đạt chuẩn và đo tỷ lệ bỏ sót cũng quan trọng như đo thời gian. Bằng chứng trích từ CV giúp người tuyển dụng kiểm tra đầu ra trước khi quyết định phân loại.
+
+### NguyenKhacKhanh-2A202603472
+
+**Phần việc phụ trách:**
+
+- Đảm nhận vai trò chính ở CP6 — Quyết định (phân tích 4 rủi ro Value / Usability / Feasibility / Viability, thiết lập quyết định Go và xây dựng bộ Stop Conditions).
+- Phụ trách kiểm chứng ở CP4 cùng Vũ: tham gia xây dựng Assumption Map, tiến hành phỏng vấn sâu theo phương pháp The Mom Test và chạy micro-survey thu thập dữ liệu thực tế.
+- Tham gia pitch 3 bài toán cá nhân, phản biện đồng đội ở CP3, hỗ trợ phân loại cụm vấn đề (Cluster) và tham gia chấm điểm shortlist lựa chọn bài toán chung cho nhóm.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- **CP3 (Hội tụ nhóm):** Pitch 3 candidate (#10 Rà soát bài lab theo rubric, #11 Chia tiền sau buổi đi chơi nhóm, #12 Duy trì tập trung khi tự học). Card #11 đạt 26/35 điểm ở vòng chấm sơ bộ. Tiếp thu phản biện của Tuấn Anh và Vũ về việc chia tiền đã có thể giải quyết tốt bằng Rule/Excel hoặc app ngân hàng, từ đó đồng thuận 100% cùng nhóm hội tụ vào Candidate 1 (Sàng lọc CV).
+- **CP4 (Kiểm chứng):** Đồng xây dựng Assumption Map đánh giá mức độ rủi ro của 6 giả định; trực tiếp tham gia phỏng vấn The Mom Test (người tuyển quân CLB, sinh viên tìm việc) và micro-survey với 8 người. Thu thập được insight mấu chốt: người tuyển dụng cần đoạn trích bằng chứng (snippet + số trang) để đối chiếu nhanh chứ không chấp nhận AI tự chấm điểm hay tự ý loại hồ sơ.
+- **CP6 (Đánh giá 4 rủi ro & Quyết định):** Phụ trách chính nội dung Mục 8 trong báo cáo nhóm:
+  + Phân tích ma trận 4 rủi ro (Value: Thấp; Usability: Trung bình; Feasibility: Trung bình; Viability: Trung bình).
+  + Lập luận bảo vệ quyết định **GO (Thử nghiệm pilot phạm vi hẹp)** trên tập 50–80 CV cho một vị trí trong 2 tuần, thiết kế thực nghiệm A/B đối chứng với quy trình thủ công.
+  + Thiết lập 2 Ngưỡng dừng (Stop condition) cụ thể: Dừng ngay lập tức nếu phát hiện 1 hồ sơ đạt chuẩn bị loại do lỗi trích xuất hoặc hệ thống dính prompt injection; dừng sau 2 tuần nếu tỷ lệ lỗi trích xuất ảnh hưởng việc duyệt > 15% hoặc chi phí xử lý thực tế vượt ngưỡng 5.000 VNĐ/CV.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- [Báo cáo nhóm](report/team/group_report.md):
+  + Mục 2.1 (dòng #10, #11, #12): 3 bài toán pitch cá nhân và câu hỏi phản biện nhận được.
+  + Mục 2.2 & 2.4: Đóng góp hình thành Cluster C, D và kết quả chấm điểm shortlist Candidate 11 (26/35 điểm).
+  + Mục 3.1 & 3.2: Assumption Map (6 giả định) và tổng hợp kết quả kiểm chứng qua phỏng vấn The Mom Test và micro-survey (8 người).
+  + Mục 8.1 & 8.2: Trực tiếp xây dựng toàn bộ bảng Bốn rủi ro (Value, Usability, Feasibility, Viability), kết luận Go thử nghiệm pilot 2 tuần và 2 ngưỡng dừng (Stop conditions).
+- [Báo cáo cá nhân của Nguyễn Khắc Khánh](report/individual/2A202603472_NguyenKhacKhanh.md): Hoàn thiện 5 Job Stories (CP1), 3 Problem Cards (CP2), và nhật ký hoạt động tham gia cùng nhóm (CP3–CP6).
+
+**Điều mình học được từ phần nhóm:**
+
+- Tôi học được cách tiếp cận bài toán bằng tư duy rủi ro và kiểm chứng giả định thực tế thay vì vội vã tin vào sức mạnh công nghệ. Khi bài toán chia tiền của tôi bị phản biện rằng "Rule/Excel hay app ngân hàng đã giải quyết được 80%", tôi nhận ra ranh giới giữa một vấn đề thực tế cần giải pháp công nghệ đơn giản và một vấn đề phi cấu trúc thực sự cần đến AI.
+- Trong khâu kiểm chứng, phương pháp The Mom Test giúp tôi nhận ra rằng nếu hỏi trực diện "bạn có muốn dùng AI không", người dùng sẽ dễ khen xã giao; chỉ khi đào sâu vào hành vi quá khứ và những trải nghiệm thực tế (thức tới 1h sáng, mỏi mắt sau 30 CV, từ chối công cụ nếu không có đoạn trích chứng minh) thì nút thắt và rào cản usability thực sự mới bộc lộ.
+- Đặc biệt, khi phụ trách khâu Quyết định (Go/No-Go), tôi hiểu rằng một quyết định "Go" có trách nhiệm không phải là vội vã xây dựng toàn bộ hệ thống, mà là thiết kế một pilot nhỏ có kiểm soát (Human-in-the-loop, AI chỉ trích xuất bằng chứng) cùng các ngưỡng dừng (Stop conditions) định lượng rõ ràng để sẵn sàng dừng lại khi chi phí hoặc độ chính xác không đạt kỳ vọng.
+

@@ -142,8 +142,8 @@ Quy trình nháp hiện tại:
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
 | Pitch Problem Card | Pitch Card #2 (Tính toán và phân bổ chi phí đi chơi nhóm) trước Nhóm 1A | Đưa bài toán vào shortlist thảo luận của nhóm ở CP3 |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: (Sẽ điền khi thảo luận nhóm CP3) | (Sẽ điền sau phản biện) |
-| Nhận phản biện | Câu hỏi tôi nhận được: (Sẽ điền khi thảo luận nhóm CP3) | Tôi đã sửa gì: (Sẽ điền sau phản biện) |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt:<br>1. Cho Tuấn Anh (lọc CV): Với các CV scan hoặc file PDF dạng ảnh có layout phức tạp, làm sao đảm bảo AI không trích xuất sót thông tin?<br>2. Cho Trang (họp nhóm): Thời gian sau họp chỉ mất 20', liệu có giải pháp No AI nào đơn giản hơn như dùng template Google Docs điền trực tiếp khi họp không? | Giúp nhóm nhận ra rủi ro kỹ thuật về định dạng file của bài lọc CV để bổ sung cơ chế kiểm tra lỗi (Rule) ở CP5, và nhận diện giải pháp No AI cho bài họp. |
+| Nhận phản biện | Câu hỏi tôi nhận được (từ Tuấn Anh và Vũ):<br>- Hiện đã có nhiều app chia tiền (Splitwise, MoMo) hoặc bảng tính Excel, tại sao người dùng phải cần một giải pháp AI thay vì dùng công cụ có sẵn?<br>- Tiêu chí Rubric có nhiều chỗ mang tính định tính (chất lượng lập luận), nếu AI chấm điểm thì làm sao tin tưởng được? | Tôi đã đồng ý với phản biện về bài chia tiền (nhận thấy phần tính toán chỉ cần Rule/Excel), từ đó đồng thuận cùng nhóm tập trung vào bài toán sàng lọc CV có giá trị AI rõ ràng hơn. |
 | Gom cluster / cây OST | Cùng nhóm phân loại các candidate thành các cụm vấn đề | Hình thành cây OST chung trong báo cáo nhóm |
 | Chọn candidate problem | Tham gia chấm điểm shortlist 7 tiêu chí | Thống nhất chọn 1 candidate chính cho nhóm |
 | Kiểm chứng / research | Phụ trách thực hiện khảo sát / phỏng vấn và tìm kiếm giải pháp có sẵn | Cung cấp dữ liệu thực tế cho Assumption Map |
@@ -158,12 +158,12 @@ Quy trình nháp hiện tại:
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan |Gợi ý thêm các vấn đề từ bối cảnh sinh viên CNTT học AI thực chiến | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research |chỉ giữ AI ở mức rà soát cảnh báo | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Gợi ý thêm các vấn đề từ bối cảnh sinh viên CNTT học AI thực chiến | Đề xuất các góc nhìn về nỗi đau phân bổ chi tiêu và quản lý thời gian | Gợi ý các giải pháp công nghệ trá hình (app AI theo dõi thói quen, bot tự đòi nợ) | Bỏ toàn bộ giải pháp trá hình, quy đổi thành Job Story gắn với dấu hiệu thật đo được |
+| CP2 Problem Card | Phản biện 3 Problem Card (chia tiền, rà soát rubric, mất tập trung) | Chỉ ra điểm yếu trong việc tính toán phân bổ món ăn chung và thuế/phí VAT | Gợi ý làm Agent tự động truy cập tài khoản ngân hàng trừ tiền (vi phạm bảo mật và bất khả thi) | Giữ ranh giới ở gợi ý số tiền và mã QR; đo lại thời gian thực tế 52 phút |
+| CP4 Research | Soạn thảo câu hỏi phỏng vấn The Mom Test và tìm hiểu các công cụ sàng lọc CV | Gợi ý các dạng câu hỏi khai thác hành vi thực tế trong quá khứ | Đưa ra một số link tài liệu không mở được; nhận định hời hợt rằng AI có thể thay thế hoàn toàn HR | Kiểm tra lại từng nguồn tài liệu; xác định AI chỉ hỗ trợ trích xuất bằng chứng (snippet), quyền quyết định thuộc về con người |
+| CP5 Quy trình | Rà soát sơ đồ quy trình hiện tại và tương lai để tìm điểm nghẽn và rủi ro | Giúp phân tách luồng dữ liệu giữa tách text và duyệt kết quả | Bỏ qua phương án dự phòng khi hệ thống gặp lỗi định dạng hoặc scan mờ | Bổ sung phương án quay về (Fallback): nếu AI lỗi thì gắn cờ cho người xem tay và dùng lại Excel truyền thống |
+| CP5–6 Problem Statement | Rà soát các chỉ số Success Metric và ranh giới an toàn (Boundary) | Nhắc nhở cần làm rõ cách tính và mẫu số của tỷ lệ bỏ sót ứng viên | Đề xuất viết mục tiêu chung chung "tối ưu hóa tuyển dụng thông minh" | Chuẩn hóa metric định lượng: thời gian < 35', tỷ lệ sót < 2%, tỷ lệ mở lại file gốc < 10% |
+| CP6 Mức can thiệp / quyết định | Đối chiếu 4 rủi ro sản phẩm (Value, Usability, Feasibility, Viability) và xây dựng ngưỡng dừng | Gợi ý rủi ro Viability về bảo mật dữ liệu CV và nguy cơ prompt injection | Đề xuất tiếp tục thử nghiệm vô điều kiện mà không có ngưỡng dừng an toàn | Thiết lập 2 ngưỡng dừng: dừng ngay nếu bỏ sót hồ sơ đạt chuẩn do AI hoặc dính injection; dừng sau 2 tuần nếu lỗi trích xuất > 15% hoặc chi phí > 5.000 VNĐ/CV |
 
 ---
 
@@ -172,21 +172,38 @@ Quy trình nháp hiện tại:
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Khi nghe Tuấn Anh trình bày về sàng lọc CV, Vũ về báo cáo quảng cáo và Trang về tổng hợp họp nhóm, tôi học được cách bóc tách một quy trình thành từng bước nhỏ có thời gian cụ thể thay vì nói chung chung. Tôi nhận ra bài toán sàng lọc CV của Tuấn Anh có dữ liệu đầu vào phi cấu trúc phức tạp và tiêu chí cứng rõ ràng, tạo ra giá trị giải quyết bằng AI sâu hơn hẳn so với bài toán chia tiền của tôi (vốn chỉ cần công thức Excel hoặc app ngân hàng có sẵn).
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Có. Ngay đầu CP3, khi nghe về bài toán tuyển dụng, cả nhóm đã hào hứng bàn về việc làm một "Agent AI tự phỏng vấn và tự gửi thư từ chối ứng viên". Khi đưa vào cây Opportunity Solution Tree (OST), nhóm nhận ra đây là giải pháp trá hình, vừa viển vông vừa tiềm ẩn rủi ro thiên vị đạo đức. Nhóm đã gạch bỏ ngay và quay về tập trung vào đúng bước nghẽn cốt lõi: sự quá tải nhận thức của người tuyển dụng khi đọc lướt hàng chục file CV để đối chiếu tiêu chí cứng.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Có. Tại CP3, tôi rất tâm huyết với bài toán chia tiền sau buổi đi chơi (Card #11). Khi Tuấn Anh và Vũ phản biện rằng khâu tính toán chỉ cần Google Sheets hoặc app MoMo/Splitwise, AI chỉ giải quyết được mỗi khâu quét ảnh OCR hóa đơn, tôi thấy nhận xét này hoàn toàn chính xác. Tôi đã đồng ý đổi ý, gác lại đề tài cá nhân và ủng hộ 100% việc chọn bài toán sàng lọc CV vì có không gian ứng dụng AI đúng nghĩa hơn.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Tôi bất ngờ nhất khi phỏng vấn bạn chuyên viên nhân sự (Junior HR): bạn khẳng định nếu công cụ chỉ hiển thị điểm số 85% match mà không trích dẫn cụ thể dòng nào trong CV chứng minh kỹ năng, bạn sẽ phải mở lại file gốc đọc từ đầu vì không dám mạo hiểm gọi ứng viên. Điều này giúp tôi nhận ra rằng tính minh bạch và khả năng kiểm chứng bằng trích dẫn (snippet + số trang) quan trọng hơn nhiều so với điểm số do AI tự chấm.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Điều khó nhất là thiết lập ranh giới an toàn (Boundary) và điều kiện dừng (Stop condition). Khi làm việc với AI, người làm sản phẩm rất dễ bị cám dỗ tự động hóa tối đa. Việc phải kiên quyết giữ ranh giới: cấm AI tự loại hồ sơ, cấm tự gửi email, bắt buộc có Human-in-the-loop duyệt cuối đòi hỏi kỷ luật tư duy rất chặt chẽ về mặt quản trị rủi ro.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Nếu làm lại, tôi sẽ chuẩn bị số liệu đo lường thực tế sớm hơn ngay từ CP2 để có cơ sở vững chắc khi pitch. Với bài toán nhóm, tôi sẽ phản biện mạnh hơn về chi phí vận hành token của mô hình khi đọc các file CV dạng ảnh/scan mờ, đồng thời yêu cầu nhóm thử nghiệm sớm hơn khả năng kháng prompt injection trước khi lên kế hoạch pilot.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+1. Bài toán của nhóm tôi xuất phát từ nỗi đau người tuyển dụng bị quá tải nhận thức và mỏi mắt khi phải đọc lướt thủ công hàng trăm CV phi cấu trúc để đối chiếu các tiêu chí cứng, gây mất hơn 2 tiếng mỗi đợt và dễ bỏ sót ứng viên tiềm năng.
+2. Quy trình gồm 5 bước tuần tự, trong đó khâu đọc lướt đối chiếu (60 phút) là nút thắt chính được chuyển đổi sang việc người duyệt bảng đối chiếu trực quan (20 phút).
+3. Success metric đặt mục tiêu giảm thời gian xử lý 100 CV xuống dưới 35 phút, tỷ lệ bỏ sót ứng viên đạt chuẩn dưới 2% và tỷ lệ phải mở lại toàn bộ file gốc dưới 10%.
+4. Ranh giới an toàn (Boundary) quy định AI tuyệt đối không tự ý loại ứng viên hay gửi email từ chối, chỉ trích xuất dữ liệu có thật trong CV và chuyển mọi hồ sơ lỗi cho con người xem tay.
+5. Nhóm chọn mức can thiệp là Workflow với kiến trúc Human-in-the-loop: dùng AI đọc hiểu để trích xuất bằng chứng kèm số trang để con người ra quyết định, tránh rủi ro ảo giác và thiên vị của Agent.
+6. Quyết định cuối cùng là Go cho một đợt thử nghiệm pilot hẹp (50–80 CV trong 2 tuần) kèm 2 ngưỡng dừng đo được: dừng ngay nếu có hồ sơ đạt chuẩn bị loại do AI hoặc bị prompt injection, và dừng sau 2 tuần nếu tỷ lệ lỗi trích xuất vượt 15% hoặc chi phí vượt 5.000 VNĐ/CV.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+1. Google People + AI Research (PAIR) Guidebook: *Human-Centered AI Patterns & Best Practices* (https://pair.withgoogle.com/).
+2. Rob Fitzpatrick: *The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you* (2013).
+3. Teresa Torres: *Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value* (2021) — Opportunity Solution Tree (OST).
+4. Marty Cagan: *Inspired: How to Create Tech Products Customers Love* — 4 Product Risks (Value, Usability, Feasibility, Viability).
+5. [Báo cáo nhóm Nhóm 1A](../team/group_report.md), mục 2–8.
+6. [Phân công Nhóm 1A](../../TEAM.md).
