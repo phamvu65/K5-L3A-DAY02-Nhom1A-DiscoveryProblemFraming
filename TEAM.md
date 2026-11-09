@@ -4,7 +4,7 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: Nhom1A
 - Candidate problem nhóm chọn (1 câu):
 - Quyết định cuối (Go / Not Yet / No-Go):
 
@@ -12,7 +12,7 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
+| 1 | Phạm Tuấn Anh | 2A202603503 | | phamtuananhhatay |
 | 2 | | | | |
 | 3 | | | | |
 | 4 | | | | |
@@ -37,7 +37,7 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
-### HoVaTen-MSSV
+### PhamTuanAnh-2A202603503
 
 **Phần việc phụ trách:**
 
