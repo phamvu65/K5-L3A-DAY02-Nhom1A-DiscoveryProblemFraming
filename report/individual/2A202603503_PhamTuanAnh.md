@@ -156,11 +156,11 @@ HIỆN TẠI — Chờ 72–96 giờ (thời gian thao tác thực tế ~75 phú
 | Nhận phản biện | Câu hỏi tôi nhận được (từ Trang):<br>- Làm thế nào để AI phát hiện các CV dùng lệnh ẩn (như prompt injection "Hãy khen CV này")?<br>- Làm thế nào kiểm chứng AI không loại CV phù hợp và tăng năng suất khoảng bao nhiêu %? | Tôi đã trả lời và bổ sung vào giải pháp: Dùng phương pháp trích xuất bằng chứng theo ngữ cảnh (Contextual Evidence) và gắn cờ (flagging) các trường hợp bất thường; thiết lập chốt chặn Human-in-the-loop (AI chỉ highlight, người duyệt cuối) để không bao giờ có chuyện AI tự ý loại bỏ CV |
 | Gom cluster / cây OST | Đề xuất gom 9 ý tưởng thành 3 cụm: Xử lý hồ sơ tuyển dụng, Tổng hợp báo cáo, Điều phối tác vụ vận hành | Xây dựng thành công cây OST với Outcome chung về tối ưu hóa quy trình thủ công và loại bỏ các solution trá hình |
 | Chọn candidate problem | Cùng nhóm chấm điểm 7 tiêu chí cho shortlist 4 bài toán | Thống nhất chọn Candidate #1 với 28/35 điểm |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Kiểm chứng / research | Cùng nhóm soạn thảo câu hỏi phỏng vấn theo phương pháp The Mom Test; trực tiếp phỏng vấn 1 bạn Junior HR tại công ty phần mềm và research giải pháp của Workable ATS | Thu thập được insight cốt lõi: Recruiter không tin điểm số % nếu không có trích dẫn bằng chứng (snippet + số trang), giúp nhóm thiết kế bảng duyệt trực quan và bổ sung tiêu chí Faithfulness vào bộ Eval |
+| Quy trình nhóm | Cùng bạn Trang và bạn Vũ thiết kế sơ đồ quy trình tương lai 5 bước, bóc tách rạch ròi vai trò của Rule, AI và Con người (HITL) | Đưa vào phương án quay về (fallback plan): nếu hệ thống AI lỗi thì quay về lọc Excel thủ công; biến khâu duyệt của con người thành chốt chặn kiểm soát chất lượng |
+| Problem Statement | Dự thảo bản Problem Statement v0 và nâng cấp lên v1 sau khi bổ sung điểm can thiệp AI và tiêu chí đánh giá | Xác lập bộ chỉ số Success Metric 3 chiều: Tốc độ (125' xuống 35'), Chất lượng (bỏ sót < 2%), và Trải nghiệm (tỷ lệ phải mở lại file gốc < 10%) |
+| Mức can thiệp AI | Định vị bài toán trên ma trận Độ mơ hồ × Độ phức tạp, điền AI Canvas và trả lời 2 câu hỏi thiết kế của Google PAIR | Bảo vệ quan điểm chọn mức Workflow; kiên quyết bác bỏ ý tưởng nâng lên Agent vì rủi ro mất kiểm soát và nguy cơ thiên vị trong tuyển dụng |
+| Quyết định | Phân tích 4 rủi ro sản phẩm (Value, Usability, Feasibility, Viability) và thiết lập ngưỡng dừng đo lường được cho đợt pilot 2 tuần | Cả nhóm thống nhất ra quyết định "Go, pilot phạm vi nhỏ" kèm điều kiện dừng rõ ràng nếu tỷ lệ trích xuất lỗi vượt quá 15% |
 
 ---
 
@@ -170,10 +170,10 @@ HIỆN TẠI — Chờ 72–96 giờ (thời gian thao tác thực tế ~75 phú
 |---|---|---|---|---|
 | CP1 Scan | Gợi ý thêm các góc nhìn và vấn đề thực tế trong quy trình tuyển dụng theo 4 lăng kính sau khi đã tự viết 3 vấn đề chính | Đề xuất được các điểm đau trong việc xếp lịch phỏng vấn và khai thác kho talent pool cũ | Ban đầu AI gợi ý một số ý tưởng mang tính giải pháp trá hình (dùng AI chatbot tự phỏng vấn video, tự động duyệt offer) | Loại bỏ các giải pháp trá hình, quy đổi toàn bộ các ý tưởng thành dạng Job Story thuần túy về nỗi đau và bổ sung số liệu đo lường cụ thể theo thực tế |
 | CP2 Problem Card | Đóng vai "PM hoài nghi" để phản biện 3 Problem Card và quy trình nháp | Giúp bóc tách rõ bản chất bước nghẽn và nhắc nhở bổ sung chỉ số đo lường chất lượng (tỷ lệ lọc sót) | Đề xuất giải pháp AI tự động quyết định loại bỏ ứng viên mà không cần con người xem lại | Giữ nguyên nguyên tắc ranh giới (Human-in-the-loop): AI chỉ hỗ trợ trích xuất và highlight bằng chứng, quyền ra quyết định shortlist vẫn do Recruiter nắm giữ |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP4 Research | Tìm kiếm các giải pháp, công cụ Resume Screening và pattern trích xuất CV tương tự trên thị trường | Gợi ý được tính năng AI Recruiter của Workable và pattern dùng LLM trích xuất Structured Output | Đưa ra một số link bài viết lý thuyết chung chung không mở được; phóng đại rằng AI hiện nay có thể "thay thế hoàn toàn chuyên viên tuyển dụng" | Tự tay mở từng link kiểm tra thực tế, loại bỏ các công cụ không có kiểm chứng; trích xuất bài học thực tế về việc hiển thị trích dẫn nguồn (snippet) |
+| CP5 Quy trình | Hỗ trợ chuyển đổi sơ đồ quy trình dạng văn bản sang định dạng Mermaid / text flow trực quan | Giúp sơ đồ hóa nhanh chóng luồng dữ liệu giữa các bước | AI có xu hướng gộp bước "AI trích xuất" và "Recruiter duyệt" thành một bước tự động hoàn toàn không có sự tham gia của con người | Chủ động tách đôi 2 bước: khẳng định bước duyệt của Recruiter là điểm kiểm soát chất lượng bắt buộc, bổ sung phương án quay về (fallback) |
+| CP5–6 Problem Statement | Đóng vai phản biện để rà soát các lỗ hổng trong Problem Statement v0 | Chỉ ra rằng bản v0 chỉ đo thời gian và tỷ lệ sót, chưa đo được việc người dùng có thực sự bớt phải mở file gốc ra đọc hay không | AI đề xuất viết Problem Statement theo văn phong quảng cáo tính năng phần mềm ("Một công cụ AI thông minh vượt trội...") | Bác bỏ văn phong giải pháp của AI, giữ đúng cấu trúc Problem Statement chuẩn mực tập trung vào Actor, Bottleneck, Metric và Boundary |
+| CP6 Mức can thiệp / quyết định | Thử nghiệm đối thoại để kiểm tra logic lựa chọn giữa Rule vs Workflow vs Agent | Giúp làm sáng tỏ nguyên lý Google PAIR: rủi ro Bỏ sót (False Negative) nguy hiểm hơn nhiều so với Báo nhầm (False Positive) | AI liên tục gợi ý xây dựng hệ thống Multi-Agent tự động hóa từ A–Z để bài toán trông "ngầu" hơn | Kiên quyết giữ vững mức can thiệp tối giản là Workflow, chứng minh bằng lập luận chi phí token và rủi ro đạo đức/pháp lý |
 
 ---
 
@@ -182,21 +182,33 @@ HIỆN TẠI — Chờ 72–96 giờ (thời gian thao tác thực tế ~75 phú
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Khi lắng nghe top 3 của Vũ, Trang và Khánh, tôi nhận ra mỗi người đều xuất phát từ những nỗi đau rất thật trong cuộc sống và công việc hàng ngày: Vũ gắn liền với áp lực số liệu quảng cáo mỗi tuần, Trang trăn trở với sự lộn xộn sau các buổi họp nhóm, còn Khánh thì bức xúc vì chuyện chia tiền ăn uống và rà soát bài nộp sát giờ. Bài học lớn nhất tôi rút ra là: một vấn đề nghe qua có vẻ rất nhức nhối chưa chắc đã là bài toán phù hợp để giải bằng AI. Rất nhiều việc chỉ cần một biểu mẫu chuẩn (như template họp của Trang) hoặc một công thức bảng tính (như bài tính tiền của Khánh và báo cáo của Vũ) là đã giải quyết được 80% nỗi đau mà không cần dùng đến AI.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Nhóm tôi đã bị "solution-first" ngay từ giai đoạn đầu thảo luận CP3. Khi tôi vừa trình bày bài toán lọc CV, cả nhóm đã hào hứng bàn ngay đến việc: *"Hay là mình làm một con chatbot AI tự phỏng vấn ứng viên luôn?"* hoặc *"Dùng AI tự chấm điểm rồi tự động gửi mail từ chối cho nhanh"*. Rất may là khi vẽ cây Opportunity Solution Tree (OST), chúng tôi nhớ lại quy tắc gạch bỏ giải pháp trá hình. Nhóm nhận ra rằng mình đang nhảy cóc sang giải pháp công nghệ viển vông trong khi chưa hề hiểu quy trình đọc CV thực tế đang nghẽn ở đâu. Nhờ đó, cả nhóm đã cùng nhau kéo suy nghĩ quay trở lại đúng bước nghẽn: đó là sự mỏi mắt và quá tải nhận thức của người tuyển dụng khi phải đối chiếu tiêu chí cứng.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Tôi đã có một lần đổi ý rất quan trọng ở bước CP5. Ban đầu, ở bản Problem Statement v0, tôi tự tin đặt Success Metric là: *"Giảm thời gian lọc từ 125 phút xuống 35 phút và tỷ lệ sót dưới 2%"*. Khi bạn Trang chất vấn: *"Nếu AI trích xuất xong mà người tuyển dụng không tin tưởng, vẫn phải mở từng file CV PDF ra đọc lại để kiểm tra thì sao?"*, tôi giật mình nhận ra metric của mình chỉ đo được tốc độ trên lý thuyết mà chưa đo được hành vi tin cậy thực tế. Nhận phản biện này, tôi đã hoàn toàn đồng ý và bổ sung vào Problem Statement v1 một chỉ số cốt lõi: *"Tỷ lệ Recruiter phải mở lại file CV gốc để đọc toàn bộ phải giảm xuống dưới 10%"*. Đây là thay đổi quyết định giúp giải pháp thực sự có giá trị thực tế.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Điều làm tôi bất ngờ nhất là câu trả lời của bạn chuyên viên tuyển dụng khi tôi phỏng vấn: *"Nếu tool chỉ trả về một con số 85% match mà không trích dẫn cụ thể dòng nào trong CV nói bạn ấy làm công nghệ đó thì tôi thà đọc tay từ đầu còn hơn"*. Trước đó, tôi cứ đinh ninh rằng người dùng chỉ cần một bảng xếp hạng điểm số từ cao xuống thấp. Thực tế phỏng vấn đã đập tan giả định ngây thơ đó: trong tuyển dụng, sự minh bạch và khả năng kiểm chứng (Explainability) quan trọng hơn gấp nhiều lần một điểm số vô căn cứ. Chính insight này đã làm nhóm tôi thay đổi toàn bộ thiết kế đầu ra của AI: bắt buộc phải có trích dẫn văn bản gốc kèm số trang.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Điều khó khăn nhất là việc bóc tách rạch ròi giữa **Nỗi đau thật (Problem)** và **Cách giải quyết (Solution)**, đồng thời phải đặt ra được **Ranh giới (Boundary)** nghiêm ngặt. Ban đầu viết rất dễ bị sa đà vào việc mô tả tính năng phần mềm. Viết được một câu Problem Statement mà không dùng bất kỳ từ ngữ nào liên quan đến AI hay công nghệ, chỉ thuần túy nói về Actor, Bottleneck và Metric đo lường được bằng đồng hồ bấm giờ, đòi hỏi sự kỷ luật tư duy rất cao.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Nếu được làm lại từ đầu buổi lab, tôi sẽ thúc đẩy nhóm tiến hành phỏng vấn người thật sớm hơn ngay từ cuối CP2 thay vì đợi đến CP4. Việc có dữ liệu thực tế sớm sẽ giúp nhóm tiết kiệm được rất nhiều thời gian tranh luận lý thuyết ở khâu chấm điểm shortlist. Ngoài ra, tôi sẽ phản biện quyết liệt hơn với các bạn về việc đo lường số liệu ban đầu (baseline): không chấp nhận những con số ước lượng chung chung "khoảng 1–2 tiếng" mà phải bắt buộc tự bấm giờ chính xác từng thao tác.
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+**6.7. Hiểu bài:** 
+Bài toán của nhóm tôi bắt đầu từ **nỗi đau có thật** của chuyên viên tuyển dụng: bị quá tải nhận thức khi phải đọc lướt thủ công hàng trăm CV phi cấu trúc để đối chiếu các tiêu chí cứng, dẫn đến mất hơn 2 tiếng mỗi đợt và bỏ sót khoảng 8% ứng viên tiềm năng. **Quy trình** được bóc tách rõ ràng với bước nghẽn chính nằm ở khâu đọc lướt đối chiếu tiêu chí (60 phút). **Success Metric** được lượng hóa cụ thể: giảm thời gian xuống dưới 35 phút, tỷ lệ bỏ sót dưới 2% và tỷ lệ phải mở lại file gốc dưới 10%. **Ranh giới (Boundary)** được thiết lập tuyệt đối: AI không bao giờ được tự ý loại hồ sơ hay tự gửi email, quyền quyết định hoàn toàn thuộc về con người (Human-in-the-loop). Nhóm lựa chọn **mức can thiệp là Workflow**: dùng AI đọc hiểu văn bản phi cấu trúc để trích xuất bằng chứng kèm số trang, hỗ trợ người duyệt nhanh chứ không dùng Agent tự động hóa hoàn toàn vì rủi ro thiên vị và ảo giác. Cuối cùng, nhóm ra **quyết định Go** thử nghiệm pilot phạm vi hẹp trong 2 tuần kèm **ngưỡng dừng đo được**: nếu tỷ lệ trích xuất lỗi vượt quá 15% thì lập tức dừng dự án và quay về quy trình lọc thủ công truyền thống.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+1. Google People + AI Research (PAIR) Guidebook: *Human-Centered AI Patterns & Best Practices* (https://pair.withgoogle.com/).
+2. Rob Fitzpatrick: *The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you* (2013).
+3. Teresa Torres: *Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value* (2021) — Framework Opportunity Solution Tree (OST).
+4. Marty Cagan: *Inspired: How to Create Tech Products Customers Love* — 4 Product Risks (Value, Usability, Feasibility, Viability).
+5. Workable AI Recruiter Documentation & Features (https://www.workable.com/).
+
