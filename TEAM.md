@@ -14,7 +14,7 @@
 |---:|---|---|---|---|
 | 1 | Phạm Tuấn Anh | 2A202603503 | Đề xuất bài toán chính, Phản biện | phamtuananhhatay |
 | 2 | Phạm Nguyên Vũ | 2A202603436 | Nghiên cứu giải pháp, Kiểm chứng | phamvu65 |
-| 3 | Nguyễn Quỳnh Trang | 2A202603477 | Thư ký ghi chép, Vẽ quy trình | Trang-1234567 |
+| 3 | Nguyễn Quỳnh Trang | 2A202603477 | Thư ký ghi chép, Vẽ quy trình | NguyenTrang005 |
 | 4 | Nguyễn Khắc Khánh | 2A202603472 | Phân tích rủi ro, Kiểm chứng | khackhanh1201 |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
@@ -110,4 +110,30 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Tôi học được cách tiếp cận bài toán bằng tư duy rủi ro và kiểm chứng giả định thực tế thay vì vội vã tin vào sức mạnh công nghệ. Khi bài toán chia tiền của tôi bị phản biện rằng "Rule/Excel hay app ngân hàng đã giải quyết được 80%", tôi nhận ra ranh giới giữa một vấn đề thực tế cần giải pháp công nghệ đơn giản và một vấn đề phi cấu trúc thực sự cần đến AI.
 - Trong khâu kiểm chứng, phương pháp The Mom Test giúp tôi nhận ra rằng nếu hỏi trực diện "bạn có muốn dùng AI không", người dùng sẽ dễ khen xã giao; chỉ khi đào sâu vào hành vi quá khứ và những trải nghiệm thực tế (thức tới 1h sáng, mỏi mắt sau 30 CV, từ chối công cụ nếu không có đoạn trích chứng minh) thì nút thắt và rào cản usability thực sự mới bộc lộ.
 - Đặc biệt, khi phụ trách khâu Quyết định (Go/No-Go), tôi hiểu rằng một quyết định "Go" có trách nhiệm không phải là vội vã xây dựng toàn bộ hệ thống, mà là thiết kế một pilot nhỏ có kiểm soát (Human-in-the-loop, AI chỉ trích xuất bằng chứng) cùng các ngưỡng dừng (Stop conditions) định lượng rõ ràng để sẵn sàng dừng lại khi chi phí hoặc độ chính xác không đạt kỳ vọng.
+
+### NguyenQuynhTrang-2A202603477
+**Phần việc phụ trách:**
+- Đảm nhận vai trò chính ở CP4 — Research (nghiên cứu các giải pháp và công cụ hỗ trợ sàng lọc CV, tổng hợp nguồn tham khảo và xác định khoảng trống giải pháp).
+- Đảm nhận vai trò chính ở CP5 — Quy trình trước/sau (xây dựng quy trình hiện tại và quy trình tương lai có tích hợp AI, thiết kế sơ đồ minh họa và bảng so sánh Before/After).
+- Thực hiện vai trò thư ký nhóm xuyên suốt CP3–CP6: ghi chép nội dung thảo luận, tổng hợp kết quả hội tụ, cập nhật tài liệu và hỗ trợ chuẩn hóa báo cáo nhóm.
+
+**Đóng góp cụ thể**
+
+- **CP3 (Hội tụ nhóm):** Đảm nhiệm vai trò thư ký trong các buổi thảo luận, tổng hợp nội dung của 12 Problem Cards, kết quả phân cụm (Cluster), cây OST và bảng chấm điểm shortlist. Ghi nhận đầy đủ các ý kiến phản biện giữa các thành viên, giúp nhóm theo dõi quá trình hội tụ và thống nhất lựa chọn Candidate 1 (Sàng lọc CV) làm bài toán chung.
+- **CP4 (Research):** Phụ trách chính phần nghiên cứu giải pháp. Tìm kiếm và tổng hợp các công cụ hỗ trợ tuyển dụng, ATS và CV Screening hiện có; phân tích ưu điểm, hạn chế và mức độ phù hợp với nhu cầu của người tuyển dụng. Xây dựng bảng research có kèm nguồn tham khảo, từ đó xác định khoảng trống quan trọng của thị trường là thiếu khả năng cung cấp bằng chứng trích xuất rõ ràng để người tuyển dụng kiểm chứng nhanh.
+- **CP5 (Quy trình trước/sau):** Thiết kế toàn bộ sơ đồ quy trình tuyển dụng hiện tại (As-Is) và quy trình tương lai có hỗ trợ AI (To-Be). Xác định các điểm nghẽn trong quá trình đọc và sàng lọc số lượng lớn CV; mô tả luồng xử lý từ tiếp nhận CV, trích xuất thông tin, đối chiếu tiêu chí đến bước đánh giá cuối cùng của con người. Đồng thời xây dựng bảng Before/After minh họa tác động của giải pháp lên thời gian xử lý, khối lượng công việc thủ công và khả năng truy xuất bằng chứng.
+- **CP6 (Hoàn thiện giải pháp):** Hỗ trợ rà soát tính nhất quán giữa phần Research, Quy trình và Problem Statement v1; chuẩn hóa sơ đồ, bảng biểu và nội dung minh họa trong báo cáo. Đóng góp ý kiến để bảo đảm giải pháp duy trì mô hình Human-in-the-loop, trong đó AI chỉ hỗ trợ trích xuất và tổng hợp bằng chứng thay vì tự động đưa ra quyết định tuyển dụng.
+
+**Bằng chứng**
+
+- [Báo cáo nhóm](report/team/group_report.md):
+  + Mục 2.2 & 2.3: Tổng hợp Cluster, cây OST và nội dung hội tụ nhóm.
+  + Mục 4: Bảng Research về các công cụ và giải pháp tham khảo kèm nguồn.
+  + Mục 5.1 & 5.2: Quy trình hiện tại (As-Is), quy trình tương lai (To-Be) và bảng Before/After.
+  + Các sơ đồ và hình minh họa trong thư mục `report/assets/` phục vụ phần nghiên cứu và quy trình.
+- [Báo cáo cá nhân của Nguyễn Quỳnh Trang](report/individual/2A202603477_NguyenQuynhTrang.md): Hoàn thiện phần nhật ký hoạt động cá nhân, nội dung research, thiết kế quy trình và các đóng góp hỗ trợ báo cáo nhóm.
+
+**Điều mình học được từ phần nhóm:**
+- Trong quá trình research, tôi hiểu rằng nhiều công cụ AI hiện nay đã hỗ trợ sàng lọc CV, nhưng rào cản lớn nhất không nằm ở khả năng chấm điểm mà nằm ở mức độ minh bạch và khả năng giải thích kết quả. Người dùng sẵn sàng sử dụng AI khi họ vẫn có thể kiểm tra lại bằng chứng gốc.
+- Khi xây dựng quy trình tương lai, tôi nhận ra AI tạo ra giá trị lớn nhất khi hỗ trợ con người xử lý thông tin và ra quyết định nhanh hơn, thay vì thay thế hoàn toàn vai trò của con người trong các quyết định có ảnh hưởng lớn như tuyển dụng.
 
