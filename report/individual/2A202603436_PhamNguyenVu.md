@@ -20,11 +20,11 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
-| 1 | Lặp lại, tốn thời gian, tổng hợp thông tin | Khi chuẩn bị cho buổi họp tối hằng tuần, tôi muốn rút ngắn thời gian tổng hợp kết quả chạy quảng cáo để có đủ thông tin trình bày trong cuộc họp. | Tôi, người chạy quảng cáo và lập báo cáo tuần. | Tôi làm báo cáo mỗi tuần và thấy khâu tổng hợp mất nhiều thời gian. Chưa đo số phút. |
-| 2 | Tốn thời gian | Khi kết ca, tôi muốn tìm nhanh khoản chênh giữa tiền nhận và hóa đơn để chốt số tiền của ca. | Người đối soát cuối ca ở quán ăn. | Gợi ý cần xác nhận: thời gian dò chênh lệch trong một ca cụ thể. |
-| 3 | Pain từ người khác | Khi nhận order giờ cao điểm, tôi muốn biết món nào đã hết để khách chọn được món còn phục vụ. | Nhân viên phục vụ và khách. | Gợi ý cần xác nhận: số đơn phải đổi và thời gian khách chờ thêm. |
-| 4 | Cần tổng hợp thông tin | Khi chuẩn bị chăm sóc một luống, tôi muốn biết lần gần nhất đã tưới hoặc bón phân khi nào để lên lịch lần tiếp theo. | Người chăm sóc luống. | Gợi ý cần xác nhận: một lần phải tìm lại sổ, tin nhắn hoặc hỏi người làm cùng. |
-| 5 | Cần tổng hợp thông tin | Khi chuẩn bị đóng một đơn đã thay đổi qua chat, tôi muốn xác nhận mẫu, số lượng và địa chỉ cuối cùng để giao đúng đơn khách đã chốt. | Người chốt đơn hoặc đóng hàng. | Gợi ý cần xác nhận: thời gian dò tin nhắn hoặc một trường hợp đóng nhầm. |
+| 1 | Lặp lại, tốn thời gian, tổng hợp thông tin | Khi chuẩn bị cho buổi họp tối hằng tuần, tôi muốn rút ngắn thời gian tổng hợp kết quả chạy quảng cáo để kịp chuẩn bị đủ thông tin trình bày. | Tôi, người chạy quảng cáo và lập báo cáo tuần. | Tôi làm báo cáo mỗi tuần. Khâu tổng hợp mất nhiều thời gian, mất từ 1h tới 2h để tổng hợp kết quả, chi phí ở các tài khoản quảng cáo, và doanh số bán hàng từng ngày |
+| 2 | Tốn thời gian | Khi kết ca, tôi muốn xác định nhanh khoản chênh lệch giữa số tiền thực nhận và tổng tiền trên hóa đơn để chốt ca. | Người đối soát cuối ca ở quán ăn. | Có ca mất thời gian dò lại để tìm khoản chênh lệch. |
+| 3 | Pain từ người khác | Khi ghi món khách gọi vào giờ cao điểm, tôi muốn biết món nào đã hết để khách chọn được món quán còn phục vụ. | Nhân viên phục vụ và khách. | Trong giờ cao điểm buổi tối (19h–22h), khi bếp báo hết món chậm, nhân viên phục vụ phải quay lại bàn và mất thêm thời gian để khách chọn món khác. |
+| 4 | Cần tổng hợp thông tin | Khi lên lịch chăm sóc một luống, tôi muốn biết lần gần nhất luống đó được tưới hoặc bón phân để lên kế hoạch cho lần tiếp theo. | Người chăm sóc luống. | Có lần phải tra lại sổ, tìm tin nhắn hoặc hỏi người làm cùng để biết thời điểm chăm sóc gần nhất. |
+| 5 | Cần tổng hợp thông tin | Khi chuẩn bị đóng một đơn đã được sửa qua chat, tôi muốn xác nhận mẫu, số lượng và địa chỉ mới nhất để giao đúng đơn khách đã chốt. | Người chốt đơn và đóng hàng. | Mất khoảng 3–5 phút dò lại tin nhắn để xác nhận thông tin và tránh đóng nhầm đơn. |
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
@@ -49,10 +49,10 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Job Story | Khi chuẩn bị cho buổi họp tối hằng tuần, tôi muốn rút ngắn thời gian tổng hợp kết quả chạy quảng cáo để có đủ thông tin trình bày. |
 | Actor | Tôi, người chạy quảng cáo và lập báo cáo tuần. |
 | Thời điểm / bối cảnh | Trước buổi họp tối hằng tuần. |
-| Quy trình hiện tại (3–7 bước) | Nháp: xem kết quả chạy quảng cáo → tổng hợp thông tin thành báo cáo tuần → trình bày trong buổi họp. |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Khâu tổng hợp báo cáo. Cần đo riêng thời gian lấy số liệu, đối chiếu và viết nhận xét nếu các thao tác này có trong quy trình thực tế. |
+| Quy trình hiện tại (3–7 bước) | Lấy doanh số từng ngày từ bảng doanh thu → lấy chi phí từ các tài khoản quảng cáo → tổng hợp số liệu thành báo cáo tuần → trình bày trong buổi họp tối. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước lâu nhất là tổng hợp doanh số và chi phí quảng cáo thành báo cáo tuần. Chưa đo riêng bước này. Toàn bộ phần chuẩn bị báo cáo mất khoảng 1–2 giờ. |
 | Impact (nếu không giải thì sao) | Tôi phải dành thời gian tổng hợp trước buổi họp mỗi tuần. |
-| Success metric (baseline → target) | Số phút từ lúc bắt đầu xem kết quả đến khi báo cáo sẵn sàng. Đo baseline ở lần làm báo cáo tiếp theo, rồi đặt target và kiểm tra báo cáo vẫn đủ thông tin cho cuộc họp. |
+| Success metric (baseline → target) | Baseline ước tính: 60–120 phút mỗi báo cáo, tính từ lúc bắt đầu lấy số liệu đến khi báo cáo sẵn sàng. Bấm giờ cả quy trình và riêng bước tổng hợp ở lần làm tiếp theo trước khi đặt target. |
 | Phương án không dùng AI | Dùng mẫu báo cáo tuần với danh sách chỉ số và định dạng thống nhất. |
 | Giả thuyết về AI (nếu có) | Nếu viết nhận xét là bước nghẽn, có thể thử hỗ trợ soạn nháp từ số liệu đã kiểm tra. |
 | Cảm nhận nhanh | Chưa biết. Cần đo bước nghẽn trước khi chọn mức can thiệp. |
@@ -60,7 +60,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 Quy trình nháp hiện tại:
 
 ```text
-Xem kết quả quảng cáo → Tổng hợp báo cáo tuần [bước nghẽn dự kiến] → Trình bày trong buổi họp
+Lấy doanh số từ bảng doanh thu → Lấy chi phí từ các tài khoản quảng cáo → Tổng hợp báo cáo tuần [bước nghẽn] → Trình bày trong buổi họp tối
 ```
 
 ### Problem Card #2
@@ -119,7 +119,7 @@ Mở hội thoại → dò các thay đổi → xác nhận thông tin cuối �
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| “Tổng hợp” còn quá rộng và chưa có thời lượng từng bước. | Chờ tôi đối chiếu với lần làm báo cáo gần nhất. | Bản nháp đã tách các thao tác cần kiểm tra và ghi cách đo baseline. |
+| Card chưa nói rõ tôi lấy số liệu từ đâu và chưa phân biệt thời gian tổng hợp với thời gian chuẩn bị toàn bộ báo cáo. | Đồng ý. Tôi lấy số liệu từ hai nguồn, sau đó mới tổng hợp. Tổng hợp là bước lâu nhất. | Tôi bổ sung bảng doanh thu và các tài khoản quảng cáo vào sơ đồ, đánh dấu bước tổng hợp là bước nghẽn và ghi 1–2 giờ là ước lượng cho toàn bộ phần chuẩn bị. |
 
 ---
 
